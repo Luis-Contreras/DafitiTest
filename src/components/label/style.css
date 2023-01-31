@@ -1,0 +1,24 @@
+.label {
+  font-family: Arial, Helvetica, sans-serif;
+  margin-bottom: 10px;
+}
+
+.title {
+  font-size: 20px;
+  line-height: 20px;
+  font-weight: 700;
+}
+
+.describe {
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 500;
+  color: gray;
+}
+
+.sub-describe {
+  font-size: 13px;
+  line-height: 20px;
+  font-weight: 500;
+  color: gray;
+}

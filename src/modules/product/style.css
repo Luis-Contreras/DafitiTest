@@ -1,0 +1,117 @@
+.body {
+  width: "100%";
+}
+
+.decription {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid #e7dddd;
+  padding: 10px;
+}
+
+.description-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer {
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  margin-top: 15px;
+}
+
+.wrapperButtons {
+  display: flex;
+  overflow-x: auto;
+  margin-top: 25px;
+}
+
+.footerIcons {
+  display: flex;
+  padding: 10px;
+  margin-top: 20px;
+  justify-content: center;
+}
+
+.related {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.relatedItems {
+  display: flex;
+  overflow: auto;
+}
+
+.relatedItem {
+  display: flex;
+  flex-direction: column;
+  margin: 15px;
+}
+
+.relatedImg {
+  width: 140px;
+}
+
+.line {
+  font-size: 13px;
+  margin-left: 5px;
+  text-decoration: line-through;
+}
+
+.wrapperButtons::-webkit-scrollbar {
+  -webkit-appearance: none;
+}
+
+.wrapperButtons::-webkit-scrollbar:vertical {
+  width: 10px;
+}
+
+.wrapperButtons::-webkit-scrollbar-button:increment,
+.wrapperButtons::-webkit-scrollbar-button {
+  display: none;
+}
+
+.wrapperButtons::-webkit-scrollbar:horizontal {
+  height: 10px;
+}
+
+.wrapperButtons::-webkit-scrollbar-thumb {
+  background-color: #f0f0f0;
+  border-radius: 20px;
+  border: 2px solid #f1f2f3;
+}
+
+.wrapperButtons::-webkit-scrollbar-track {
+  border-radius: 10px;
+}
+
+.relatedItems::-webkit-scrollbar {
+  -webkit-appearance: none;
+}
+
+.relatedItems::-webkit-scrollbar:vertical {
+  width: 10px;
+}
+
+.relatedItems::-webkit-scrollbar-button:increment,
+.relatedItems::-webkit-scrollbar-button {
+  display: none;
+}
+
+.relatedItems::-webkit-scrollbar:horizontal {
+  height: 10px;
+}
+
+.relatedItems::-webkit-scrollbar-thumb {
+  background-color: #f0f0f0;
+  border-radius: 20px;
+  border: 2px solid #f1f2f3;
+}
+
+.relatedItems::-webkit-scrollbar-track {
+  border-radius: 10px;
+}
